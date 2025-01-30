@@ -4,8 +4,168 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-03</title>
+    <!-- Tailwind Connect -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind extension connect -->
+    <!-- Daisy ui connect -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Connect -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+        
+.sora-font{
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+        </style>
 </head>
-<body>
+
+
+
+
+<body class="sora-font">
+    <section class="bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3]">
+    <section class="flex max-w-screen-xl my-0 mx-auto">
+        <!-- Mobile part -->
+    <div class="navbar">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Product</a></li>
+              <li>
+                <a>Responsive</a>
+                <ul class="p-2">
+                  <li><a>Mobile</a></li>
+                  <li><a>Tablet</a></li>
+                </ul>
+              </li>
+              <li><a>Services</a></li>
+            </ul>
+          </div>
+
+          <!-- Web logo -->
+         <img src="logo-header.png" alt="Web-logo">
+        </div>
+
+        <!-- Option Part -->
+        <div class="navbar-center hidden my-0 mr-36 text-2xl lg:flex">
+          <ul class="menu menu-horizontal px-2 font-medium flex gap-x-10">
+            <li><a>Product</a></li>
+            <li><a>Services</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+
+
+<!-- Icon part -->
+ <div class="flex gap-x-5">
+    <div class="flex gap-x-5">
+        <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+          </svg>
+          </div>
+        <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+          </svg>
+          </div>
+     </div>
     
+    
+    
+            <!-- Button part-->
+            <div class="flex gap-x-4">
+                <div class="btn btn-outline btn-success">
+                    <a>Login</a>
+                  </div>
+                  <div class="btn btn-success">
+                    <a>Register</a>
+                  </div>
+            </div>
+          </div>
+    
+
+ </div>
+
+    </section>
+
+<!-- Banner part start -->
+<section>
+
+<div>
+    <h1 class="text-6xl font-semibold text-center my-10">Freshness <span class="text-[#179800]">You Can <br> Count</span> 
+    On, Prices You’ll Love!</h1>
+    <p class="text-[#111111] text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+</div>
+<div>
+    <img class="flex my-10 mx-auto" src="hero-vegetables.png" alt="">
+</div>
+</section>
+</section>
+
+<!-- Services Part -->
+
+<section class="container my-16 mx-auto">
+<div><h1 class="text-4xl text-[#179800] ml-5">Services</h1></div>
+
+<!-- Cart part -->
+<div class="flex flex-col items-center gap-y-5 lg:flex-row lg:gap-x-10 my-10">
+    <!-- cart-1 -->
+<div class="bg-[#EFEBE3] w-[95%] my-0 mx-auto lg:w-96 px-6 py-6 rounded-2xl">
+    <div class="flex justify-center">
+        <img class="bg-[#FFFFFF] rounded-full px-5 py-5" src="service.png" alt="">
+    </div>
+    <h2 class="text-center py-4 text-2xl font-semibold">24/7 Services</h2>
+    <p class="text-center">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt</p>
+    
+    </div>
+    <!-- cart-2 -->
+<div class="bg-[#EFEBE3] w-[95%] my-0 mx-auto lg:w-96 px-6 py-6 rounded-2xl">
+    <div class="flex justify-center">
+        <img class="bg-[#FFFFFF] rounded-full px-5 py-5" src="delivery.png" alt="">
+    </div>
+    <h2 class="text-center py-4 text-2xl font-semibold">24/7 Services</h2>
+    <p class="text-center">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt</p>
+    
+    </div>
+    <!-- cart-3 -->
+<div class="bg-[#EFEBE3] w-[95%] my-0 mx-auto lg:w-96 px-6 py-6 rounded-2xl">
+    <div class="flex justify-center">
+        <img class="bg-[#FFFFFF] rounded-full px-5 py-5" src="healthy.png" alt="">
+    </div>
+    <h2 class="text-center py-4 text-2xl font-semibold">24/7 Services</h2>
+    <p class="text-center">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt</p>
+    
+    </div>
+    
+</div>
+
+</section>
+
+<!-- Popular Part -->
+
+
+
+
+
 </body>
+
 </html>
