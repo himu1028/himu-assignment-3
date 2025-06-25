@@ -1,5 +1,5 @@
 # 🌐 Project Name
-First Demo
+Vrgtables
 ## 🔍 Overview of the Project
 
 This is a modern and responsive web application built to solve real-world problems. The project focuses on delivering a seamless user experience and includes essential features for its purpose. It was developed as part of my learning journey in web development.
